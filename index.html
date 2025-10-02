@@ -1,17 +1,55 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>StrikeSpot — Bowling Gear, Tips & Local Lanes</title>
-  <meta name="description" content="StrikeSpot: the site for bowlers — gear reviews, coaching tips, local alleys and deals. Buy smarter, bowl better." />
-  <link rel="icon" href="data:,">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StrikeSpot Bowling</title>
   <style>
-    :root{--accent:#0b6;--dark:#0f1720;--muted:#6b7280}
-    *{box-sizing:border-box}
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;color:#0f1720;line-height:1.4;background:#f8fafc}
-    .wrap{max-width:980px;margin:28px auto;padding:0 18px}
-    header{display:flex;align-items:center;justify-content:space-between}
-    .logo{font-weight:800;color:var(--accent);letter-spacing:0.6px}
-    .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;margin-top:18px}
-    .card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(12,15
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fafafa; color: #333; }
+    header { background: #222; color: #fff; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .hero { text-align: center; padding: 2rem; background: #f4f4f4; }
+    .hero h1 { font-size: 2rem; margin-bottom: 1rem; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 1rem; }
+    .card { background: #fff; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { background: #222; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎳 StrikeSpot Bowling</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to StrikeSpot!</h1>
+    <p>Your #1 spot for bowling reviews, guides, and events.</p>
+  </section>
+
+  <div class="container">
+    <div class="card">
+      <h2>Top Bowling Alleys</h2>
+      <p>We explore the best alleys around the world so you always know where to roll your next strike.</p>
+    </div>
+
+    <div class="card">
+      <h2>Gear Reviews</h2>
+      <p>From bowling balls to shoes, we review gear that can level up your game.</p>
+    </div>
+
+    <div class="card">
+      <h2>Events & Tournaments</h2>
+      <p>Stay updated with upcoming bowling tournaments and fun community events.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 StrikeSpot Bowling</p>
+  </footer>
+</body>
+</html>
