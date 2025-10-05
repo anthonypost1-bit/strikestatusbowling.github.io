@@ -14,6 +14,15 @@
     .container { max-width: 900px; margin: 2rem auto; padding: 1rem; }
     .card { background: #fff; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
     footer { background: #222; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+
+    /* buttons for brand section */
+    #brands button {
+      background: #222; color: #fff; border: none;
+      margin: 5px; padding: 10px 15px; border-radius: 6px; cursor: pointer;
+      font-size: 1rem;
+    }
+    #brands button:hover { background: #444; }
+    #products ul { list-style-type: disc; padding-left: 20px; }
   </style>
 </head>
 <body>
@@ -46,10 +55,10 @@
       <h2>Events & Tournaments</h2>
       <p>Stay updated with upcoming bowling tournaments and fun community events.</p>
     </div>
-  </div>
 
-  <footer>
-    <p>&copy; 2025 Strike Status Bowling</p>
-  </footer>
-</body>
-</html>
+    <!-- 🎳 Interactive Bowling Ball Brands Section -->
+    <h2 style="text-align:center; margin-top:2rem;">Bowling Ball Brands</h2>
+    <div id="brands" style="max-width:900px;margin:1rem auto;padding:1rem;">
+      <button onclick="showProducts('storm')">🌪 Storm</button>
+      <button onclick="showProducts('brunswick')">🎯 Brunswick</button>
+      <button onclick="showProducts('
